@@ -5,4 +5,5 @@
     <string name="nike">Nike</string>
     <string name="fila">Fila</string>
     <string name="puma">Puma</string>
+    <string name="title_activity_splash">SplashActivity</string>
 </resources>
