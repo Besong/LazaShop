@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -16,7 +15,6 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
@@ -46,17 +44,13 @@ import com.example.lazashop.ui.components.SectionHeader
 import com.example.lazashop.ui.components.VerticalGrid
 
 @Composable
-fun WelcomeScreen(modifier: Modifier = Modifier) {
+fun HomeScreen(modifier: Modifier = Modifier) {
 
-    Surface(
-        modifier = modifier.fillMaxSize()
-    ) {
-            WelcomeScreenContent(modifier = modifier)
-        }
+    HomeScreenContent(modifier = modifier)
 }
 
 @Composable
-private fun WelcomeScreenContent(
+private fun HomeScreenContent(
     modifier: Modifier = Modifier
 ) {
 
@@ -270,13 +264,13 @@ private fun ProductGrid(products: List<Product>) {
 
 @Preview(showBackground = true)
 @Composable
-fun WelcomeScreenPreview() {
-    WelcomeScreen()
+fun HomeScreenPreview() {
+    HomeScreen()
 }
 @Preview(showBackground = true)
 @Composable
-fun WelcomeScreenContentPreview() {
-    WelcomeScreenContent()
+fun HomeScreenContentPreview() {
+    HomeScreenContent()
 }
 
 @Preview(showBackground = true)
