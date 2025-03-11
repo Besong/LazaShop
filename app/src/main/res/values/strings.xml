@@ -5,5 +5,12 @@
     <string name="nike">Nike</string>
     <string name="fila">Fila</string>
     <string name="puma">Puma</string>
+    
+    <!-- Screens string resources -->
+    <string name="home">Home</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="cart">Cart</string>
+    <string name="wallet">Wallet</string>
+
     <string name="title_activity_splash">SplashActivity</string>
 </resources>
